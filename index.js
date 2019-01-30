@@ -30,8 +30,6 @@
       this.beginningLocation = beginningLocation;
       this.endingLocation = endingLocation;
     }
-    
-
 
 // return an int # of blocks travelled
     blocksTravelled() {
