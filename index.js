@@ -15,14 +15,7 @@
     }
   }
 
-
-  class Route {
-    constructor(beginningLocation, endingLocation) {
-      this.beginningLocation = beginningLocation;
-      this.endingLocation = endingLocation;
-    }
-    
-    let eastWest = [
+  let eastWest = [
       '1st Avenue',
       '2nd Avenue',
       '3rd Avenue',
@@ -30,7 +23,15 @@
       'Park',
       'Madison Avenue',
       '5th Avenue'
-    ];
+  ];
+    
+  class Route {
+    constructor(beginningLocation, endingLocation) {
+      this.beginningLocation = beginningLocation;
+      this.endingLocation = endingLocation;
+    }
+    
+
 
 // return an int # of blocks travelled
     blocksTravelled() {
