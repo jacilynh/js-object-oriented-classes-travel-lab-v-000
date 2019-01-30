@@ -6,7 +6,7 @@
       this.startDate = new Date(startDate);
     }
     
-// * `yearsExperienceFromBeginningOf` — takes an argument of a year and returns the number of years since the driver's startDate. 
+// takes an argument of a year, returns # years since driver's startDate
 
     yearsExperienceFromBeginningOf(endDate) {
       let yr = new Date(endDate, 1, 1);
