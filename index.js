@@ -48,6 +48,15 @@
       return (vertical + horizontal);
     }
     
-// `estimatedTime` — return # minutes estimated for trip. During off peak hours, a driver travels three blocks in a minute, while during peak hours a driver travels an estimated two blocks in a minute.
+// return # minutes estimated for trip. During off peak hours, a driver travels three blocks in a minute, while during peak hours a driver travels an estimated two blocks in a minute.
+
+    estimatedTime(peak) {
+      if(peak) {
+        return this.blocksTravelled() / 2;
+      }
+      else {
+        return this.blocksTravelled() / 3;
+      }
+    }
     
   }
