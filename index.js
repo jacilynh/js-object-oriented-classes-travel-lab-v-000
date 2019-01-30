@@ -12,7 +12,7 @@
     }
     
     yearsExperienceFromBeginningOf(endDate) {
-      let yr = new Date(endDate);
+      let yr = new Date(endDate, 1, 1);
       let diff = (yr - startDate) / (1000*60*60*24*365);
       return diff;
     }
