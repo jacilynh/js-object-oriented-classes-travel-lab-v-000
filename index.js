@@ -8,11 +8,12 @@
   class Driver {
     constructor(name, startDate) {
       this.name = name;
-      this.startDate = new Date(startDate);
+      this.startDate = new Date;
     }
     
     yearsExperienceFromBeginningOf(year) {
-      let yr = new Date(year, 1, 1);
-      let 
+      let yr = new Date();
+      let diff = (yr - startDate) / (1000*60*60*24*365);
+      
     }
   }
