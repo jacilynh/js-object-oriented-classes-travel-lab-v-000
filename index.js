@@ -1,4 +1,4 @@
-// initialized with a name, and a string representing the day that he joined Scuber. 
+// initialized with a name, and a string representing the day that he joined Scuber
 
   class Driver {
     constructor(name, startDate) {
