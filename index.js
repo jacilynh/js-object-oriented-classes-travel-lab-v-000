@@ -63,6 +63,8 @@ is to travel eight blocks (five blocks North and three blocks West).
       let begHorzIndex = eastWest.indexOf(begHorz);
       let endHorzIndex = eastWest.indexOf(endHorz);
       
+      let horizontal = begHorzIndex - endHorzIndex;
       
+      return (vertical + horizontal);
     }
   }
