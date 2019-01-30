@@ -67,4 +67,6 @@ is to travel eight blocks (five blocks North and three blocks West).
       
       return (vertical + horizontal);
     }
+    
+    
   }
