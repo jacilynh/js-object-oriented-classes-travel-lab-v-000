@@ -43,7 +43,7 @@
       let begHorzIndex = eastWest.indexOf(begHorz);
       let endHorzIndex = eastWest.indexOf(endHorz);
       
-      let horizontal = begHorzIndex - ;
+      let horizontal = endHorzIndex - begHorzIndex;
       
       return (vertical + horizontal);
     }
