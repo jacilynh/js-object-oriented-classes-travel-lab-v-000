@@ -59,6 +59,9 @@ is to travel eight blocks (five blocks North and three blocks West).
       
       let begHorz = this.beginningLocation['horizontal'];
       let endHorz = this.endLocation['horizontal'];
+      
+      let begHorzIndex = eastWest.indexOf(begHorz);
+      let endHorzIndex = eastWest.indexOf(endHorz);
 
     }
   }
