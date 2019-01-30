@@ -38,7 +38,7 @@
       let vertical = endVert - begVert;
       
       let begHorz = this.beginningLocation['horizontal'];
-      let endHorz = this.endLocation['horizontal'];
+      let endHorz = this.endingLocation['horizontal'];
       
       let begHorzIndex = eastWest.indexOf(begHorz);
       let endHorzIndex = eastWest.indexOf(endHorz);
