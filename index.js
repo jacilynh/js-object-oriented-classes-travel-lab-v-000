@@ -20,7 +20,7 @@
   
   class Route {
     constructor(beginningLocation, endingLocation) {
-      this.beginningLocation = beginningLocation;
+      this.beginningLocation = {horizontal;
       this.endingLocation = endingLocation;
     }
   }
