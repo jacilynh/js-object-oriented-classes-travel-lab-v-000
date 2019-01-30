@@ -33,8 +33,8 @@
 
 // return an int # of blocks travelled
     blocksTravelled() {
-      let begVert = this.beginningLocation['vertical'];
-      let endVert = this.endingLocation['vertical'];
+      let begVert = this.beginningLocation['vertical'] * 1;
+      let endVert = this.endingLocation['vertical'] * 1;
       let vertical = endVert - begVert;
       
       let begHorz = this.beginningLocation['horizontal'];
