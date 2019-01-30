@@ -18,7 +18,12 @@
     }
   }
   
-//   **Route**
+  class Route {
+    constructor(beginningLocation, endingLocation) {
+      this.beginningLocation = beginningLocation;
+      this.endingLocation = endingLocation;
+    }
+  }
 
 // - A route is initialized with two arguments, a `beginningLocation` and an
 //   `endingLocation`. Both of these arguments are JavaScript objects with attributes
